@@ -59,8 +59,28 @@
 //     document.getElementById("title").innerHTML = "Number Count --> " + number--;
 // }
 
-console.log(document.getElementById("main").innerHTML);
-function submitAction(){
-    let txtName = document.getElementById("txtName");
-    document.getElementById("main").innerHTML = "My name is : " + txtName.value;
+// console.log(document.getElementById("main").innerHTML);
+// function submitAction(){
+//     let txtName = document.getElementById("txtName");
+//     document.getElementById("main").innerHTML = "My name is : " + txtName.value;
+// }
+
+function addAction(){
+    let firstNum = document.getElementById("firstNum").value;
+    
+    let secondNum  = document.getElementById("secondNum").value;
+    
+    let result = parseInt(firstNum) + parseInt(secondNum);
+    
+    document.getElementById("result").innerHTML = "Result is : " + result;
+}
+
+function subAction(){
+    let firstNum = document.getElementById("firstNum").value;
+    
+    let secondNum  = document.getElementById("secondNum").value;
+
+    let result = parseInt(firstNum) - parseInt(secondNum);
+    
+    document.getElementById("result").innerHTML = "Result is : " + result;
 }
