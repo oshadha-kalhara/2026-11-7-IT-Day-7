@@ -21,7 +21,22 @@ let customerList = [
     {
         name: "oshadha",
         age: 25,
-        tel: "0775454567"
+        tel: "0775454567",
+        items: [
+            {
+                itemName: "rice",
+                 itemPrice: 1000,
+                 quantity: 2
+            },
+            {
+                itemName: "dhal",
+                 itemPrice: 2000
+            },
+            {
+                itemName: "sugar",
+                 itemPrice: 3000
+            }
+        ]
     },
     {
         name: "nuwan",
@@ -34,3 +49,4 @@ let customerList = [
         tel: "0775454567"
     }
 ];
+console.log(customerList[0].items[0].quantity);
