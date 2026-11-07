@@ -50,11 +50,17 @@
 //     }
 // ];
 // console.log(customerList[0].items[0].quantity);
-let number = 0;
-function btnClickActionIncrement() {
-    document.getElementById("title").innerHTML = "Number Count --> " + number++;
-}
+// let number = 0;
+// function btnClickActionIncrement() {
+//     document.getElementById("title").innerHTML = "Number Count --> " + number++;
+// }
 
-function btnClickActionDecrement() {
-    document.getElementById("title").innerHTML = "Number Count --> " + number--;
+// function btnClickActionDecrement() {
+//     document.getElementById("title").innerHTML = "Number Count --> " + number--;
+// }
+
+console.log(document.getElementById("main").innerHTML);
+function submitAction(){
+    let txtName = document.getElementById("txtName");
+    document.getElementById("main").innerHTML = "My name is : " + txtName.value;
 }
