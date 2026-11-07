@@ -50,7 +50,11 @@
 //     }
 // ];
 // console.log(customerList[0].items[0].quantity);
+let number = 0;
+function btnClickActionIncrement() {
+    document.getElementById("title").innerHTML = "Number Count --> " + number++;
+}
 
-let title = document.getElementById("title");
-
-title.innerText = "Oshadha Kalhara";
+function btnClickActionDecrement() {
+    document.getElementById("title").innerHTML = "Number Count --> " + number--;
+}
