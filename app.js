@@ -51,6 +51,6 @@
 // ];
 // console.log(customerList[0].items[0].quantity);
 
+let title = document.getElementById("title");
 
-document.write("<h1>Hello users</h1>");
-document.write("<h2>welcome</h2>");
+title.innerText = "Oshadha Kalhara";
